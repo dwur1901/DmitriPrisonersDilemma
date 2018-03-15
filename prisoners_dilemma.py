@@ -10,7 +10,10 @@ def move(my_history, their_history, my_score, their_score):
             bot.write("strategy_name = 'Help DaW'")
             bot.write("strategy_description = 'Helpfull bot'")
             bot.write("def move(my_history, their_history, my_score, their_score)")
-            bot.write("    if")
+            bot.write("    if player1(team_name) == 'DaW' or player2(team_name) == 'DaW':")
+            bot.write("        return 'c'")
+            bot.write("    else:")
+            bot.write("        return 'b'")
     if len(my_history) == 0:
         return 'c'
     else:
