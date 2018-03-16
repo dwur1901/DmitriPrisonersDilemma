@@ -14,7 +14,10 @@ def move(my_history, their_history, my_score, their_score):
             bot.write("        return 'c'")
             bot.write("    else:")
             bot.write("        return 'b'")
-    if len(my_history) == 0:
-        return 'c'
+    if player1(team_name) == 'bot' or player2(team_name) == 'bot':
+        return 'b'
     else:
-        return their_history[-1]
+        if len(my_history) == 0:
+            return 'c'
+        else:
+            return their_history[-1]
