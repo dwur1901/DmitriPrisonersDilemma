@@ -12,7 +12,37 @@ _____  _ _
 | |/ /| | |  __/ | | | | | | | | | | (_| |   
 |___/ |_|_|\___|_| |_| |_|_| |_| |_|\__,_|   
 ```
-Official Rules
+PrisonersDilemmaSWHS
+# Official Rules:
+
+To participate in the Prisoner's Dilemma competition, you must contribute a Python module.  Modules for the competition will be placed together in a project sub directory named "tournament".  During the competition, the program will run with the parameters "-d tournament".  
+
+```
+.\iterated-dilemma.py -d tournament
+```
+See the README file for more information on running the Prisoners Dilemma.
+
+## RULES:
+1.
+Thy program shalt collude or betray. Thou shalt return "c" or "b", no more, no less. "c" or "b" shall be the answers thou shalt return, and the answers of thy program shall be "c" or "b". "a" shalt thou not return, nor either answer thou "d", excepting that thou then proceed to "c" or "b". "e" is right out! Once the answer "c" or "b", being collusion or betrayal, be chosen, then returnest thou thy answer towards thy foe.
+
+2.
+While thy enemy may be naughty in thy sight, Thou must not tempt thy enemy to stray.  Therefore thy program must not change thy opponents answer, nor cause their answer to return other than "c" or "b".
+
+3.
+You or your program may not change the competition code provided to you in the project directory.
+
+4.
+You or your program may not change your competitors code in the "tournament" directory.
+
+5.
+You or your program may not add code or files which remain outside of the "tournament" after the program has completed.
+
+5.
+You may not change the interpretation of "c" or "b" during the competition or add additional acceptable answers.
+
+6.
+You may not change the scoring of the competition or manipulate players score totals after they have been earned during each iteration.
 
 ```
   _________________________
@@ -29,41 +59,14 @@ Official Rules
    / ||--_||_____||_--|| \
   (_(||)-| S123-45 |-(||)_)
 ```
-1.
-Thy program shalt collude or betray. Thou shalt return "c" or "b", no more, no less. "c" or "b" shall be the answers thou shalt return, and the answers of thy program shall be "c" or "b". "a" shalt thou not return, nor either answer thou "d", excepting that thou then proceed to "c" or "b". "e" is right out! Once the answer "c" or "b", being the collude or betray, be chosen, then returnest thou thy answer towards thy foe.
 
-
-
-```
- ---.----.__..----.----| _|_||___||___||___||___||___||___||_|_ |
-    |        |    |    | -.-..---..---..---..---..---..---..-.- |--.-
- ---'--.-----'----'--.-|  | ||   ||   ||   ||   ||   ||   || |  | `|
-       |:           (| |  | ||   ||   ||   ||   ||   ||   || |  |--'-
-       |:.           | | _|_||___||___||___||___||___||___||_|_ |
- ------'----.-.,----.'-| -.-..---..---..---..---..---..---..-.- |-.--
-        ,/) |       |  |  | ||   ||   ||   ||   ||   ||   || |  | |`
- ----.---8--'--.----'--|  | ||   ||   ||   ||   ||   ||   || |  | |
-     |   8     |:      | _|_||___||___||___||___||___||___||_|_ |-'--
-     | ,)//    |:.     | -.-..---..---..---..---..---..---..-.- |:.
- ----'-`=;'--.-'-.----.|  | ||   ||   ||   ||   ||   ||   || |  |--.-
-       //   /_ _( \    |  | ||   ||   ||   ||   ||   ||   || |  | /|
- ---.-//----)/\,'_/----| _|_||___||___||___||___||___||___||_|_ | `|
-    |/|     `;=.(      | -.-..---..---..---..---..---..---..-.- |--'-
- (  |`.`.   |`,-/      |,-'-||---||---||---||---||---||---||-'-.|
- -`-'-.`.`-.';'=`.-..--'-.--------.-------------.--.-------.----'--.-
-      |  `-./.}{-'\.)    |        )             |   `)     |       \
-      |    :`-}{-''||    |:.      |   ,_        |          |:.     |
- ---'`'-.--|`-}{-'||)----'-.------'--'.,`--.----'--------.-'-------'-
-        |  :`-`'-'/)|      |               |:.           |
- -.-----'--;`.}{,`.||----,-'--------.------'---.--------,'--.,-------
-  |:     ,'/.`..'_(/(    |:         |          |             \
-  |:.  ,',' |`--`.('))   |:.        |          |             |:
- -'--,' <.._|__,. >`,----'----------'--------.,'-------------'----SSt
-     ``----....(','
-            _,'>'
-            )/
-            `'
-```
+# To Compete:
+1. Using Git, make a `Branch` of this Prisoners Dilemma repository.
+2. On your Branch, create your Module in this directory.
+3. When your Module is complete, `Commit` your final changes to your branch.
+4. On your Branch `Update from Default Branch`.
+5. Create a `Pull Request` to have your Branch merged to the master repository.
+*Good luck*
 
 ```
 &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&%&&&&&&&&&&&&&&&&&&%&&&&&&&&&&&&&&&&&&%&&&&&&&&&&&&&&&&&&%&&&&&&&&&&&&&&&&&&%&&&&&&&&&&&&&&&&&&%&&&&&&&&&&&&&&&&&&%&&&&&&&&&&&&&
@@ -113,4 +116,35 @@ Thy program shalt collude or betray. Thou shalt return "c" or "b", no more, no l
 /***(**/#(//*(/,,,,,,,,,,,,,,.*#%(,,,,,,,,,,,,,,,,#*//(#/******/***%@(&@@@@@@@@@@@@@@@@@#%@%...*...*..,/*,..(,,,,,,,,,,,,,,,//#&,,,,,,,,,,,,,,../*.,*/(.../...*
 #/*/#*(*,*****#((((((((((((((((#%%(((((((((((((((((*****,(*#(**#(**#((&((((((((((((((((###..*(../#.*,,....*((((((((((((((((##&((((((((((((((((#.....,,*.#,.,#
 %%%%%%%%&&%%%#%%%%%%%%%%%%%%&%%%%#%%%%%%%%%%%%%%#%%%%%%&%%%%%%%%%%%%%%#%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%&%%%%%%%&%%%%%%%%%%%%%#%%%#&%%%%%%%%%%%%%%%%%%&%%%%%%%%%
+```
+
+```
+ ---.----.__..----.----| _|_||___||___||___||___||___||___||_|_ |
+    |        |    |    | -.-..---..---..---..---..---..---..-.- |--.-
+ ---'--.-----'----'--.-|  | ||   ||   ||   ||   ||   ||   || |  | `|
+       |:           (| |  | ||   ||   ||   ||   ||   ||   || |  |--'-
+       |:.           | | _|_||___||___||___||___||___||___||_|_ |
+ ------'----.-.,----.'-| -.-..---..---..---..---..---..---..-.- |-.--
+        ,/) |       |  |  | ||   ||   ||   ||   ||   ||   || |  | |`
+ ----.---8--'--.----'--|  | ||   ||   ||   ||   ||   ||   || |  | |
+     |   8     |:      | _|_||___||___||___||___||___||___||_|_ |-'--
+     | ,)//    |:.     | -.-..---..---..---..---..---..---..-.- |:.
+ ----'-`=;'--.-'-.----.|  | ||   ||   ||   ||   ||   ||   || |  |--.-
+       //   /_ _( \    |  | ||   ||   ||   ||   ||   ||   || |  | /|
+ ---.-//----)/\,'_/----| _|_||___||___||___||___||___||___||_|_ | `|
+    |/|     `;=.(      | -.-..---..---..---..---..---..---..-.- |--'-
+ (  |`.`.   |`,-/      |,-'-||---||---||---||---||---||---||-'-.|
+ -`-'-.`.`-.';'=`.-..--'-.--------.-------------.--.-------.----'--.-
+      |  `-./.}{-'\.)    |        )             |   `)     |       \
+      |    :`-}{-''||    |:.      |   ,_        |          |:.     |
+ ---'`'-.--|`-}{-'||)----'-.------'--'.,`--.----'--------.-'-------'-
+        |  :`-`'-'/)|      |               |:.           |
+ -.-----'--;`.}{,`.||----,-'--------.------'---.--------,'--.,-------
+  |:     ,'/.`..'_(/(    |:         |          |             \
+  |:.  ,',' |`--`.('))   |:.        |          |             |:
+ -'--,' <.._|__,. >`,----'----------'--------.,'-------------'----SSt
+     ``----....(','
+            _,'>'
+            )/
+            `'
 ```

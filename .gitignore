@@ -49,3 +49,4 @@ Temporary Items
 .idea/modules.xml
 *.iml
 *.xml
+*.pyc
